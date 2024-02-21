@@ -128,7 +128,7 @@ activity.setSupportActionBar(ui.toolbar);
 function getScript(choice) {
     let url_prefix = [
         'https://mirror.ghproxy.com/https://raw.githubusercontent.com/kxcare/jszs/main/',
-        'https://gh-proxy.com/https://raw.githubusercontent.com/xaore/jszs/main/'
+        'https://gh-proxy.com/https://raw.githubusercontent.com/kxcare/jszs/main/'
     ];
     for (var i = 0; i < url_prefix.length; i++) {
         try {
