@@ -606,7 +606,7 @@ function forward(title_short) {
     if(!textContains(title_short).findOne(5000)){};
     sleep(1000);
     fInfo("模拟滑动浏览");
-    click(device_w / 2, device_h * 0.7);
+    //click(device_w / 2, device_h * 0.7);
     swipe(device_w / 2, device_h * 0.7, device_w / 2, device_h * 0.5, 1500);
     sleep(3000);
     back();
