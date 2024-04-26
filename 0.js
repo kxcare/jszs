@@ -203,7 +203,7 @@ if (tjzf) {
                 swipe(device_w / 2, device_h * 0.8, device_w / 2, device_h * 0.7, 1000);
                 finish();
             }
-            swipe(device_w / 2, device_h * 0.8, device_w / 2, device_h * 0.7, 1000);
+            swipe(device_w / 2, device_h * 0.8, device_w / 2, device_h * 0.6, 1000);
             sleep(200);
             hd_times++;
         }
