@@ -599,8 +599,7 @@ function forward(title_short) {
     fInfo("点击文件传输助手:" + wjcs_click);
     sleep(1000);
     fClear();
-    fInfo("点击浏览");
-    textStartsWith(title_short).findOne().parent().parent().parent().click();
+    fInfo("点击浏览:" + textStartsWith(title_short).findOne().parent().parent().click());
     sleep(1000);
     fInfo("等待文章标题显现");
     if(!textContains(title_short).findOne(5000)){};
